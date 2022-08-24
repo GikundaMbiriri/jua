@@ -748,7 +748,7 @@ h6 {
     width: 50%;
     height: 78%;
     content: '';
-    background: url(../images/shapes/shape3.png) no-repeat center center/cover;
+    background: #F1821A;
     z-index: 1; }
   .featured-area:after {
     position: absolute;
