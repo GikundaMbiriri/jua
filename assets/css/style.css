@@ -226,7 +226,17 @@ h6 {
 
 .section-p-120 {
   padding: 120px 0; }
-
+.color-hover{
+  color: white;
+}
+.details{
+  display:flex; 
+  justify-content: space-around;
+   margin-top: 40px;
+}
+.color-hover:hover{
+color: #2bc387;
+}
 .column-title {
   font-size: 36px;
   line-height: 48px;
@@ -750,7 +760,7 @@ h6 {
     width: 50%;
     height: 78%;
     content: '';
-    background: #F1821A;
+    background: orange;
     z-index: 1; }
   .featured-area:after {
     position: absolute;
@@ -772,7 +782,7 @@ h6 {
     width: 100%;
     height: 100%;
     content: '';
-    background: url(../images/background/bg_dot1.png) no-repeat center center/cover; }
+    background: orange }
 
 /*------------------ blockcain top -----------*/
 .blockcain-top-sec {
@@ -909,7 +919,7 @@ h6 {
     width: 100%;
     height: 100%;
     content: '';
-    background: url(../images/background/bg_dot2.png) no-repeat center center/cover; }
+    background: orange; }
 
 .blockcain-business-sec {
   padding: 122px 0 52px; }
@@ -997,7 +1007,7 @@ h6 {
     background: url(../images/shapes/shape2.png) no-repeat center center/cover; }
 
 .how-work-sec {
-  background-image: radial-gradient(50% 50%, #070086 0%, #050069 37%, #02004b 87%);
+  background:orange;
   padding-top: 120px; }
 
 .xs-count-down {
@@ -1228,7 +1238,7 @@ h6 {
   token distribution chart
 ====================================*/
 .token-roadmap-area {
-  background-image: radial-gradient(50% 50%, #070086 0%, #050069 37%, #02004b 87%); }
+  background:orange; }
 
 .token-chart-item {
   border-radius: 50%;
@@ -1791,7 +1801,7 @@ h6 {
   blog section start
  ==============================================*/
 .blog-and-footer-area {
-  background-image: radial-gradient(50% 50%, #070086 0%, #050069 37%, #02004b 87%); }
+  background:orange; }
 
 .blog-and-social-area {
   position: relative; }
@@ -2502,3 +2512,8 @@ a.cencel-preloader {
   border-radius: 36px;
   color: #001ec8;
   font-size: 14px; }
+  @media screen and (max-width: 480px) {
+    .details{
+      flex-wrap: wrap; 
+    }
+  }
