@@ -608,8 +608,8 @@ h6 {
   position: relative; }
 
 .banner-item {
-  min-height: 1226px;
-  padding-top: 242px;
+  padding-top: 140px;
+  padding-bottom: 140px;
   position: relative; }
   .banner-item:before {
     position: absolute;
@@ -708,7 +708,9 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 33px; }
-
+.banner-title{
+  color: #000;
+}
 .banner-v2 .banner-v2-img .banner-img {
   position: absolute;
   left: 0;
