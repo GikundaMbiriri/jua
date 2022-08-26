@@ -29,12 +29,14 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 /*============================================================
  typography
 =============================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Yeseva One", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #868dff;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -102,15 +104,16 @@ ul, li {
   clear: both; }
 
 p {
-  color: #868dff;
-  font-size: 16px;
-  line-height: 26px;
+  color: white;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 100;
   margin: 0 0 15px; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+  color: black;
   margin: 0 0 17px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: 'Abel', sans-serif;}
 
 h1 {
   font-size: 72px;
@@ -228,6 +231,9 @@ h6 {
   padding: 120px 0; }
 .color-hover{
   color: white;
+ background-color: #2bc387;
+ border-radius: 4px;
+
 }
 .details{
   display:flex; 
@@ -236,6 +242,7 @@ h6 {
 }
 .color-hover:hover{
 color: #2bc387;
+background-color: white;
 }
 .column-title {
   font-size: 36px;
